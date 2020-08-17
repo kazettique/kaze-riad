@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// import Jira from './components/Jira'
+import Jira from './components/Jira2'
 
-function App() {
+function App (): React.ReactElement {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,9 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <Jira name='Woody' />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
