@@ -1,6 +1,6 @@
 import React from 'react'
 import { Redirect, RedirectProps } from 'react-router-dom'
-import { motion, Variants } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const MotionRedirect: React.FC<RedirectProps> = ({ children, ...props }) => (
   <motion.div exit='undefined'>
