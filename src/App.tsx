@@ -7,7 +7,7 @@ import AppContainer from './layout/AppContainer'
 
 import './styles.css'
 
-export default function App() {
+export default function App(): React.ReactElement {
   return (
     <Provider store={configureStore()}>
       <BrowserRouter>
